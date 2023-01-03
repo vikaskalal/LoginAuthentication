@@ -3,14 +3,14 @@ The Custom developed Magento Two Factor Authentication (2FA) gives you an opport
 
 Install Manually using source code :
 
-  Download zip from github. And paste downloaded code in /var/www/html/[ProjectName]/app/code Remove global readme.md files it's not needed.
+  Download zip from github. And paste downloaded code in<code> /var/www/html/[ProjectName]/app/code </code>Remove global readme.md files it's not needed.
 
 Run the following command in Magento 2 root folder:
-
+```
   php bin/magento setup:upgrade
-  
+  php bin/magento s:d:c
   php bin/magento setup:static-content:deploy
-  
+  ```
 
 **User Guide**
   **How to config LoginAuthentication For admin**
